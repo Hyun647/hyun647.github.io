@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "도현"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : # "I am an **amazing** person."
+  bio              : "세상을 바꾸는 코드 한 줄"
   location         : "South Korea"
   email            :
   links:
