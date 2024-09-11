@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : hyunBlog
   discourse:
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "도현"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/hyun.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "세상을 바꾸는 코드 한 줄"
   location         : "South Korea"
   email            :
@@ -284,9 +284,13 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      comments: true
+      show_date: true
+      layout: posts
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
+
+enable_copy_code_button: true
