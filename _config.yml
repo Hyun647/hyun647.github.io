@@ -282,15 +282,20 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: portfolio
     values:
       comments: true
       show_date: true
-      layout: posts
-      author_profile: true
+      layout: single
+      author_profile: false
       read_time: true
       comments: # true
       share: true
       related: true
 
 enable_copy_code_button: true
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
