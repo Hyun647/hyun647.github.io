@@ -282,17 +282,16 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: portfolio
+      type: posts
     values:
-      comments: true
-      show_date: true
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
-      toc: true
+      sidebar:                  
+        nav: "sidebar-category" 
 
 enable_copy_code_button: true
 
