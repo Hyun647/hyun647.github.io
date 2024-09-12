@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "neon", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "HyunBlog"
+title                    : "hyunBlog"
 title_separator          : "|"
 subtitle                 : "세상을 바꾸는 코드 한 줄"
 name                     : "Hyun"
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "Hyun647"
+    shortname            : "hyunBlog"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -108,7 +108,7 @@ author:
   # avatar           : "/images/DH0407logo.png" 원형 프로필 생성
   # bio              : "세상을 바꾸는 코드 한 줄"
   location         : "South Korea"
-  email            : "chodohyun0407@icloud.com"
+  # email            : 
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
