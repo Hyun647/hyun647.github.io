@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "도현"
   # avatar           : "/images/DH0407logo.png" 원형 프로필 생성
-  bio              : "세상을 바꾸는 코드 한 줄"
+  # bio              : "세상을 바꾸는 코드 한 줄"
   location         : "South Korea"
   email            : "chodohyun0407@icloud.com"
   links:
