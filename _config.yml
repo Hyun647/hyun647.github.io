@@ -16,23 +16,23 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "neon", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "DH0407"
+title                    : "HyunBlog"
 title_separator          : "|"
-subtitle                 : "small positive action"
+subtitle                 : "세상을 바꾸는 코드 한 줄"
 name                     : "Hyun"
-description              : "Hyun의 블로그 입니다."
-url                      : "https://DH0407.github.io"
+description              : "개발 공부를 하며 배운 내용을 정리하는 블로그 입니다"
+url                      : "https://hyun647.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/images/DH0407logo.png"
+logo                     : "/assets/images/hyun.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "DH0407"
+    shortname            : "Hyun647"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -98,21 +98,21 @@ social:
 analytics:
   provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-S89B8XXZGG
+    tracking_id          : GTM-PV8PTBVG
     anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Hyun"
+  name             : "도현"
   # avatar           : "/images/DH0407logo.png" 원형 프로필 생성
-  bio              : "Hyun의 블로그입니다."
+  bio              : "세상을 바꾸는 코드 한 줄"
   location         : "South Korea"
-  email            : "byeolb96@gmail.com"
+  email            : "chodohyun0407@icloud.com"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DH0407"
+      url: "https://github.com/hyun647"
     # - label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -126,7 +126,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DH0407"
+      url: "https://github.com/hyun647"
     # - label: "Youtube"
     #  icon: "fab fa-youtube"
     #   url: "https://www.youtube.com/watch?v=0q9Jj86x4Es"
