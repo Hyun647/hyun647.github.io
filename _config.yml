@@ -12,27 +12,27 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "neon", "dirt", "default", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "hyunBlog"
+title                    : "DH0407"
 title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "dohyun"
-description              : "개발 공부를 하며 배운 내용을 정리하는 블로그 입니다"
-url                      : "https://github.com/Hyun647"
+subtitle                 : "small positive action"
+name                     : "Hyun"
+description              : "Hyun의 블로그 입니다."
+url                      : "https://DH0407.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/hyun.jpg"
+logo                     : "/images/DH0407logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : hyunBlog
+    shortname            : "DH0407"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : true # false (default)
+search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -75,7 +75,7 @@ google:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-naver_site_verification  :
+naver_site_verification  : c6304d1d14f27369c0bd2f829cb3bc970e3c3e8b
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -96,60 +96,40 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : GTM-PV8PTBVG
-    anonymize_ip         : false
+    tracking_id          : G-S89B8XXZGG
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
-  name             : "도현"
-  avatar           : #"/assets/images/hyun.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "세상을 바꾸는 코드 한 줄"
+  name             : "Hyun"
+  # avatar           : "/images/DH0407logo.png" 원형 프로필 생성
+  bio              : "Hyun의 블로그입니다."
   location         : "South Korea"
-  email            :
+  email            : "byeolb96@gmail.com"
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   # url: "mailto:your.name@email.com"
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   # url: "https://your-website.com"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   # url: "https://twitter.com/"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-    #   # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Hyun647"
+      url: "https://github.com/DH0407"
     # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   # url: "https://instagram.com/"
+    #  icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+    # - label: "Youtube"
+    #  icon: "fab fa-youtube"
+    #   url: "https://www.youtube.com/watch?v=0q9Jj86x4Es"
+
 
 # Site Footer
 footer:
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   # url:
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-    #   # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Hyun647"
-    # - label: "GitLab"
-    #   icon: "fab fa-fw fa-gitlab"
-    #   # url: 
-    # - label: "Bitbucket"
-    #   icon: "fab fa-fw fa-bitbucket"
-    #   # url:
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   # url: 
+      url: "https://github.com/DH0407"
+    # - label: "Youtube"
+    #  icon: "fab fa-youtube"
+    #   url: "https://www.youtube.com/watch?v=0q9Jj86x4Es"
 
 
 # Reading Files
@@ -220,7 +200,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)
@@ -257,16 +237,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+   category: archive-taxonomy
+   tag: archive-taxonomy
+  permalinks:
+   category: /categories/:name/
+   tag: /tags/:name/
 
 
 # HTML Compression
@@ -290,12 +270,10 @@ defaults:
       comments: true
       share: true
       related: true
-      sidebar:                  
-        nav: "sidebar-category" 
+      show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: 목차
+      toc_icon: "fa-duotone fa-list"
 
-enable_copy_code_button: true
-
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+date_format: "%Y-%m-%d"
